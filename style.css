@@ -20,14 +20,14 @@ body {
     border-radius: 12px;
     padding: 20px;
 
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.123);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.432);
     transition: all 0.2s ease;
 
 }
 
 .ln:hover {
     transform: translate(4px, 4px);
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.123);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
 }
 
 .ph1 {
@@ -48,12 +48,12 @@ body {
     display: inline-block;
     color: gray;
 
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.123);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.432);
     transition: all 0.2s ease;
 }
 
 .cart:hover {
     transform: translate(4px, 4px);
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.123);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
     
 }
