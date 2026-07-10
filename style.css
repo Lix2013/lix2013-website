@@ -19,6 +19,13 @@ body {
     border: 3px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     padding: 20px;
+
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.637);
+}
+
+ln:hover {
+    transform: translate(4px 4px);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.637);
 }
 
 .ph1 {
