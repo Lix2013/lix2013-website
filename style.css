@@ -15,16 +15,16 @@ body {
 }
 
 .ln {
-    background: linear-gradient(to top right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.12));
-    border: 3px solid rgba(255, 255, 255, 0.249);
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.08));
+    border: 3px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 20px;
 }
 
 .ph1 {
-    background: linear-gradient(to top right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.12));
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.08));
 
-    border: 3px solid rgba(255, 255, 255, 0.249);
+    border: 3px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 5%;
     display: inline-block;
@@ -32,7 +32,7 @@ body {
 }
 
 .cart {
-    background: linear-gradient(to top right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.12));
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.08));
     border: 3px solid rgba(255, 255, 255, 0.249);
     border-radius: 12px;
     padding: 5%;
