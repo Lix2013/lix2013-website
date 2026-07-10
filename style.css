@@ -24,9 +24,9 @@ body {
 .ph1 {
     background-color: cyan;
 
-    border: 3px solid rgba(255, 255, 255, 1);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 12px;
-    padding: 5%;
+    padding: 20px;
     display: inline-block;
 
 }
@@ -35,7 +35,7 @@ body {
     background: linear-gradient(to top right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.08));
     border: 3px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
-    padding: 5%;
+    padding: 20px;
     display: inline-block;
     color: gray;
 }
