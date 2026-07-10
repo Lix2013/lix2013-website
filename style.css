@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, rgb(0, 255, 234), rgb(0, 255, 68));
+    color: blue;
+    text-align: center;
+}
+
+.panels {
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 20px;
+
+}
+
+.ln {
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+    border: 3px solid rgba(255, 255, 255, 0.249);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.ph1 {
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+
+    border: 3px solid rgba(255, 255, 255, 0.249);
+    border-radius: 12px;
+    padding: 5%;
+    display: inline-block;
+
+}
+
+.cart {
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+    border: 3px solid rgba(255, 255, 255, 0.249);
+    border-radius: 12px;
+    padding: 5%;
+    display: inline-block;
+    color: gray;
+}
