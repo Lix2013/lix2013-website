@@ -1,8 +1,7 @@
 body {
     min-height: 100vh;
     margin: 0;
-    background: linear-gradient(top to left, cyan, rgb(0, 255, 0));
-    filter: blur(3px);
+    background: linear-gradient(to top left, cyan, rgb(0, 255, 0));
     color: blue;
     text-align: center;
 }
