@@ -21,12 +21,13 @@ body {
     padding: 20px;
 
     box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.637);
+    transition: all 0.2s ease;
+
 }
 
 .ln:hover {
     transform: translate(4px, 4px);
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
-    transition: all 0.2s ease;
 }
 
 .ph1 {
@@ -48,10 +49,11 @@ body {
     color: gray;
 
     box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.637);
+    transition: all 0.2s ease;
 }
 
 .cart:hover {
     transform: translate(4px, 4px);
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
-    transition: all 0.2s ease;
+    
 }
