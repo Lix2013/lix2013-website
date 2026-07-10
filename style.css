@@ -24,7 +24,7 @@ body {
 }
 
 .ln:hover {
-    transform: translate(4px 4px);
+    transform: translate(4px, 4px);
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
     transition: all 0.2s ease;
 }
