@@ -22,9 +22,9 @@ body {
 }
 
 .ph1 {
-    background: linear-gradient(to top right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.08));
+    background-color: cyan;
 
-    border: 3px solid rgba(255, 255, 255, 0.2);
+    border: 3px solid rgba(255, 255, 255, 1);
     border-radius: 12px;
     padding: 5%;
     display: inline-block;
