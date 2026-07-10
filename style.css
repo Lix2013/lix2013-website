@@ -33,11 +33,13 @@ body {
 
 .cart {
     background: linear-gradient(to top right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.08));
-    border: 3px solid rgba(0, 0, 0, 0.233);
+    border: 3px solid rgba(0, 0, 0, 0.445);
     border-radius: 12px;
     padding: 20px;
     display: inline-block;
     color: gray;
+
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.637);
 }
 
 
