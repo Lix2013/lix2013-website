@@ -33,7 +33,7 @@ body {
 .ph1 {
     background-color: cyan;
 
-    border: 3px solid rgb(255, 255, 255);/**/
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 12px;
     padding: 20px;
     display: inline-block;
@@ -47,7 +47,7 @@ body {
     padding: 20px;
     display: inline-block;
 
-    size: 20px;
+    size: 50px;
 
     align-items: center;
     color: black;
