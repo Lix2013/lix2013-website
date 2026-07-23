@@ -41,6 +41,8 @@ body {
 
 }
 
+
+
 .cart {
     background: linear-gradient(to top right, rgba(255, 255, 255, 0.411), rgba(255, 255, 255, 0.178));
     border: 3px solid rgba(255, 255, 255, 0.555);
@@ -53,7 +55,7 @@ body {
     align-items: center;
     color: black;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
-    transition: all 0.2s ease;
+    transition: all 0.5 ease;
 }
 
 .cart:hover {
