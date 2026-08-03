@@ -1,65 +1,89 @@
-body {
-    min-height: 100vh;
-    margin: 0;
-    background-color: rgb(0, 65, 56);
-    color: blue;
+@font-face {
+    font-family: 'Tajawal';
+    src: url(fonts/Tajawal-Regular.ttf);
+    weight: 400;
+}
+
+@font-face {
+    font-family: 'Tajawal';
+    src: url(fonts/Tajawal-Bold.ttf);
+    weight: 700;
+}
+
+:root {
+    /*====Body====*/
+    --body-background-color: #000000;
+
+    /*====Buttons and links====*/
+    --button-color: #ffffff;
+    --button-hover-color: #005772;
+    --button-text-color: #000000;
+
+    /*====Carts====*/
+    --cart-border-color: #00ffee;
+    --cart-background-color: linear-gradient(to top right, rgba(255, 255, 255, 0.313), rgba(255, 255, 255, 0.497));
+    --cart-text-color: #ffffff;
+
+    /*====Titles====*/
+    --title-color: #000000;
+    --title-background: linear-gradient(to top left, #ffffff2a, #ffffffab);
+    --title-border-color: #00ffee;
+}
+
+body, html {
+    background-color: var(--body-background-color);
+    color: #000000;
+    font-family: 'Tajawal', sans-serif;
     text-align: center;
+    min-height: 100vh;
 }
 
-.panels {
-    color: rgb(0, 0, 0);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 12px;
-    padding: 30px;
-
-}
-
-.ln {
-    background: linear-gradient(to top right, rgba(255, 255, 255, 0.411), rgba(255, 255, 255, 0.178));
-    border: 3px solid rgba(255, 255, 255, 0.2);
-    border-radius: 12px;
-    padding: 20px;
-
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
-    transition: all 0.3s ease;
-
-}
-
-.ln:hover {
-    outline: 1px solid white;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
-}
-
-.ph1 {
-    background-color: #ffffff94;
-
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 12px;
-    padding: 20px;
+h1 {
+    border: 2px solid var(--title-border-color);
+    background: var(--title-background);
     display: inline-block;
-    color: black;
-
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
 }
 
+.btn-link {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    transition: .4s ease-in;
+}
 
+.btn-link:hover {
+    background-color: var(--button-hover-color);
+}
 
 .card {
-    background: linear-gradient(to top right, rgba(255, 255, 255, 0.411), rgba(255, 255, 255, 0.178));
-    border: 3px solid rgba(255, 255, 255, 0.555);
-    border-radius: 12px;
+    border: 3px solid var(--cart-border-color);
+    background: var(--cart-background-color);
+    color: var(--cart-text-color);
+    border-radius: 10px;
     padding: 20px;
-    display: inline-block;
-
-    size: 50px;
-
-    align-items: center;
-    color: black;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
-    transform: translateY(-8px);
-    transition: all 0.5 ease;
+    width: 350px;
+    margin: 30px auto;
+    transition: .4s ease-in;
+    box-shadow: 4px 4px 4px rgb(255, 255, 255);
 }
 
-.cart:hover {
-    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5);
-    
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 8px 8px 8px rgb(255, 255, 255);
+}
+hr {
+    background-color: #000000;
+    border: none;
+    height: 2px;
+    width: 100px;
+}
+
+p {
+    color: #ffffff;
 }
