@@ -55,11 +55,11 @@ body {
     align-items: center;
     color: black;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
+    transform: translateY(-8px);
     transition: all 0.5 ease;
 }
 
 .cart:hover {
-    outline: solid white;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5);
     
 }
