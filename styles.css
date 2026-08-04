@@ -68,7 +68,7 @@ h1 {
     border-radius: 10px;
     padding: 20px;
     width: 350px;
-    text-align: right;
+    text-align: left;
     margin: 30px auto;
     transition: .4s ease-in;
     box-shadow: 4px 4px 4px rgb(0, 0, 0);
