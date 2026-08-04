@@ -12,7 +12,7 @@
 
 :root {
     /*====Body====*/
-    --body-background-color: #000000;
+    --body-background-color: #00a078;
 
     /*====Buttons and links====*/
     --button-color: #ffffff;
@@ -20,14 +20,14 @@
     --button-text-color: #000000;
 
     /*====Carts====*/
-    --cart-border-color: #00ffee;
+    --cart-border-color: #ffffff;
     --cart-background-color: linear-gradient(to top right, rgba(255, 255, 255, 0.313), rgba(255, 255, 255, 0.497));
     --cart-text-color: #ffffff;
 
     /*====Titles====*/
     --title-color: #000000;
     --title-background: linear-gradient(to top left, #ffffff2a, #ffffffab);
-    --title-border-color: #00ffee;
+    --title-border-color: #ffffff;
 }
 
 body, html {
